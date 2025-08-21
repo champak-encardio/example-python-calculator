@@ -12,6 +12,9 @@ def divide(a, b):
         return "Error: Division by zero NOT POSIBLE"
     return a / b
 
+def add_three(a, b, c):
+    return a + b + c
+
 if __name__ == "__main__":
     print("Welcome to the calculator!")
     print("2+3=", add(2, 3))
@@ -19,4 +22,4 @@ if __name__ == "__main__":
     print("2*3=", multiply(2, 3))
     print("2/3=", divide(2, 3))
     print("2/0=", divide(2, 0))
-    
+    print("2+3+4=", add_three(2, 3, 4))
